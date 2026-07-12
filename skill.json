@@ -1,0 +1,23 @@
+{
+  "name": "genpark-order-packaging-tare-weight-estimator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Estimate shipping tare packaging offsets based on item groupings.",
+  "author": "genpark",
+  "category": "logistics",
+  "tags": [
+    "packaging",
+    "shipping"
+  ],
+  "inputs": {
+    "item_weights": {
+      "type": "array"
+    }
+  },
+  "outputs": {
+    "tare_weight_lbs": {
+      "type": "number"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
